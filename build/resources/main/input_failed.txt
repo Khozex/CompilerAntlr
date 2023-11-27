@@ -1,0 +1,24 @@
+PROGRAM MeuPrograma;
+VAR x, y : INTEGER;
+VAR z : BOOLEAN;
+
+BEGIN
+    x := 10;
+    y := 20;
+    IF x < y THEN
+        WRITE("x é menor que y");
+    IF
+        WRITE("x não é menor que y");
+    END;
+
+    z := TRUE;
+    WHILE z DO
+    BEGIN
+        IF y > 10 THEN
+            y := y - 1;
+        ELSE
+            z := FALSE;
+        END;
+        WRITE("Loop executando")
+    END;
+END.

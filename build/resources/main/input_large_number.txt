@@ -1,0 +1,6 @@
+PROGRAM TesteConstanteGrande;
+VAR numeroGrande : INTEGER;
+
+BEGIN
+    numeroGrande := 1234567890123456789012312;  // Mais de 16 caracteres
+END.
